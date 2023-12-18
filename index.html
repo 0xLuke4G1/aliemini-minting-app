@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mint Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="menu">
+            <nav class="nav-menu">
+                <ul>
+                    <li>
+                        <w3m-core-button></w3m-core-button>
+                    </li>
+                    <li>
+                        <a href="https://polygonscan.com/address/0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661" target="_blank">
+                            <img src="images/polygonscan-logo.svg" width="120px">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <h1 class="title">MINT YOUR AlieMINI</h1>
+            <div id="salesInfo" class="childDiv">
+                <h3>Mint State:</h3>
+                <h4 id="mint-state"></h4>
+                <h3>Mint Price:</h3>
+                <h4 id="mint-price"></h4>
+                <h3>Total Minted:</h3>
+                <h4 id="tot-minted"></h4>
+            </div>
+            <div id="mintDiv" class="childDiv">
+                <button class="interactBtn" id="mintButton" style="display: none">
+                    MINT
+                </button>
+                <w3m-core-button id="bottomCoreeButton"></w3m-core-button>
+                <a id="mintResult"></a>
+            </div>
+            <br>
+        </div>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
