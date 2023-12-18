@@ -3,59 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AlieMINI App</title>
-        <link rel="icon" href="/aliemini-minting-app/assets/icon-f79df91a.png">
+        <title>Mint Website</title>
         
-      <script type="module" crossorigin src="/aliemini-minting-app/assets/index-205690a9.js"></script>
-      <link rel="stylesheet" href="/aliemini-minting-app/assets/index-44094de7.css">
+      <script type="module" crossorigin src="/aliemini-minting-app/assets/index-143c8797.js"></script>
+      <link rel="stylesheet" href="/aliemini-minting-app/assets/index-a88e7c2d.css">
     </head>
     <body>
-        <div id="app">
-            <div id="menu">
-                <nav class="nav-menu">
-                    <ul>
-                        <li>
-                            <w3m-core-button></w3m-core-button>
-                        </li>
-                        <li>
-                            <a href="https://polygonscan.com/address/0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661" target="_blank">
-                                <img src="/aliemini-minting-app/assets/polygonscan-logo-6d6298d2.svg" width="120px">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="main">
-                <h1 class="title">MINT YOUR AlieMINI</h1>
-                <p style="text-align: center; margin-bottom: 2rem; margin: 2rem 2rem;">
-                    AlieMINI is a limited ensemble of 125 uniquely designed aliens.
-                    <br>
-                    <br>
-                    Each NFT is a passport to an exclusive club of collectors, offering a blend of art, rarity, and digital companionship.
-                    <br>
-                    <br>
-                    Secure your AlieMINI and add an extraterrestrial twist to your collection.
-                </p>
-                <div id="salesInfo" class="childDiv">
-                    <h3>Mint State:</h3>
-                    <h4 id="mint-state"></h4>
-                    <h3>Mint Price:</h3>
-                    <h4 id="mint-price"></h4>
-                    <h3>Total Minted:</h3>
-                    <h4 id="tot-minted"></h4>
-                </div>
-                <div id="mintDiv" class="childDiv">
-                    <button class="interactBtn" id="mintButton" style="display: none; ">
-                        Mint
-                    </button>
-                    <w3m-core-button id="bottomCoreeButton"></w3m-core-button>
-                    <a id="mintResult"></a>
-                </div>
-            </div>
+        <div id="menu">
+            <nav class="nav-menu">
+                <ul>
+                    <li>
+                        <w3m-core-button></w3m-core-button>
+                    </li>
+                    <li>
+                        <a href="https://polygonscan.com/address/0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661" target="_blank">
+                            <img src="/aliemini-minting-app/assets/polygonscan-logo-6d6298d2.svg" width="120px">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <footer>
-            <p class="footer">Copyright &#169; 2023 AlieMINI Collection. All Rights Reserved.</p>
-        </footer>
+        <div id="main">
+            <h1 class="title">MINT YOUR AlieMINI</h1>
+            <div id="salesInfo" class="childDiv">
+                <h3>Mint State:</h3>
+                <h4 id="mint-state"></h4>
+                <h3>Mint Price:</h3>
+                <h4 id="mint-price"></h4>
+                <h3>Total Minted:</h3>
+                <h4 id="tot-minted"></h4>
+            </div>
+            <div id="mintDiv" class="childDiv">
+                <button class="interactBtn" id="mintButton" style="display: none">
+                    MINT
+                </button>
+                <w3m-core-button id="bottomCoreeButton"></w3m-core-button>
+                <a id="mintResult"></a>
+            </div>
+            <br>
+        </div>
         
     </body>
 </html>
